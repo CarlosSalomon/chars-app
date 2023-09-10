@@ -1,0 +1,16 @@
+.barra-gral {
+    display: flex;
+    background-color: rgb(189, 159, 25);
+
+}
+
+.barra {
+    background-color: rgba(189, 159, 25, 0.664);
+    padding: 5px;
+
+}
+
+.barra-brand {
+    color: aliceblue;
+
+}
