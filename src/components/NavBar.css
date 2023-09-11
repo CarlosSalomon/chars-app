@@ -7,10 +7,9 @@
 .barra {
     background-color: rgba(189, 159, 25, 0.664);
     padding: 5px;
-
 }
-
-.barra-brand {
-    color: aliceblue;
+.barra-brand{
+font-size: 2rem;
+color: white;
 
 }

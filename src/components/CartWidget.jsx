@@ -3,7 +3,7 @@ import { FaCartShopping } from 'react-icons/fa6'; // Importa un icono de React I
 import './CartWidget.css';
 
 const Notificacion = () => {
-  const numeroNotificaciones = 5; // Número hardcodeado (fijo) para la notificación
+  const numeroNotificaciones = 5; // Número  hardcodeado fijo para la notificación (solicitado)
 
   return (
     <div className="notificacion-container">
