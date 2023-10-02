@@ -1,0 +1,30 @@
+.Card-container
+{padding: 30px;
+height: 450px;
+}
+
+.Card-only{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.Card-only img{
+    width: 200px;
+    height: 130px;
+    image-rendering: cover;
+    
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .card-title.h5{
+text-align: center;
+    }

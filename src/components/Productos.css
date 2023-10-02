@@ -1,0 +1,32 @@
+.home-products{
+background-color: rgba(154, 156, 156, 0.144);
+display: flex;
+}
+
+.home-products h1 {
+display: flex;
+text-align: center;
+margin-left: 30px;
+font-size: 2rem;
+color: rgb(255, 255, 255);
+
+
+}
+.home-products label {
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    
+    
+    }
+.home-products select {
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 20px;
+}

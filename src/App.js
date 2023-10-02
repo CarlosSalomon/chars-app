@@ -1,18 +1,28 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Barranav from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import Home from './pages/Home.jsx'
+import Productos from './pages/Productos.jsx';
+import Detalle from './pages/Detalle.jsx';
+
+
+
+
+
+
 
 
 function App() {
   return (
-    <div >
-      < >
-        <Barranav />
-      </>
-      < >
-        <ItemListContainer greeting="Tu lugar en Tecnologia" />
-      </>
-    </div>
+
+    <BrowserRouter>
+      <Routes>
+
+        <Route path='/' element={<Home />} />
+        <Route path='/ItemlistContainer' element={<Productos />} />
+        <Route path="/producto/:id" element={<Detalle />} />
+
+      </Routes>
+    </BrowserRouter>
 
   );
 }

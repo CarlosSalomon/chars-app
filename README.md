@@ -1,7 +1,7 @@
 # CURSO REACT Js
 
 
- ## Primer Pre-entrega React js
+ ## Segunda Pre-entrega React js
 
 
 ### Alumno: 

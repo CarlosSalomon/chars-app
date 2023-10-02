@@ -1,0 +1,9 @@
+.home{
+display: flex;
+justify-content: center;
+align-items: center;
+background-size:cover;
+background-position: center;
+height: 87vh;
+background-image: url(../assets/img/Informatica.jpg);
+}
